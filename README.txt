@@ -5,14 +5,15 @@ Provides a component which displays a random article.
 
 The following features for raptus.article are provided by this package:
 
-    * Components:
-        * Random article (Random article with it's image displayed over the whole width)
-        * Random article left (Random article with it's image displayed on the left side)
-        * Random article right (Random article with it's image displayed on the right side)
-        * Random article teaser (Random article with it's image displayed over the whole width and displayed above the columns)
+Components
+----------
+    * Random content (Random article with it's image displayed over the whole width)
+    * Random content left (Random article with it's image displayed on the left side)
+    * Random content right (Random article with it's image displayed on the right side)
+    * Random content teaser (Random article with it's image displayed over the whole width and displayed above the columns)
 
-Dependencies:
-
+Dependencies
+------------
     * raptus.article.nesting
 
 Installation
@@ -59,7 +60,5 @@ in the article in which this component is active.
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by raptus_, and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
 See LICENSE.txt for details.
-
-.. _raptus: http://raptus.com/ 

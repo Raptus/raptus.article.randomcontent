@@ -10,25 +10,28 @@ Code overview
 
 Components
 ----------
-plone.abovecontentbody:
 
+plone.abovecontentbody
+``````````````````````
 - raptus.article.randomcontent.left
 - raptus.article.randomcontent.right
 - raptus.article.randomcontent.full
 
-plone.portaltop:
-
+plone.portaltop
+```````````````
 - raptus.article.randomcontent.teaser
 
 Interfaces
 ----------
-file: interfaces.py
 
+file: interfaces.py
+```````````````````
 - IRandomContent (Provider for a random article)
     - getArticle - method (Returns a random article (catalog brain))
 
 Schema extender
 ---------------
-file: extender.py
 
-- ArticleExtender - for IArticleIntroduction
+file: extender.py
+`````````````````
+- ArticleExtender - for IArticle
